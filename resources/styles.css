@@ -1,0 +1,12 @@
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+};
+
+
+
+nav li {
+    color: blue;
+    display: inline-block;
+}
