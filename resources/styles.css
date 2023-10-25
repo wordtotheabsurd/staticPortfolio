@@ -2,11 +2,57 @@ header {
     background-color: aqua;
     display: flex;
     justify-content: space-around;
-};
+}
 
 
 
-nav li {
-    color: blue;
+header li {
+    color: rgb(119, 83, 20);
     display: inline-block;
+    justify-content: center;
+    align-content: center;
+    padding: 1em;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.about-me {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: rgb(119, 83, 20);
+}
+.accomp {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: rgb(119, 83, 20);
+}
+
+.skills {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: rgb(119, 83, 20);
+}
+
+main li {
+    display: flex;
+    text-align: left;
+    align-items: bottom;
+    
 }
